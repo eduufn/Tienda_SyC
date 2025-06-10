@@ -1,0 +1,81 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 7 may. 2025, 22:26:43
+    Author     : Administrator
+*/
+
+   body {
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: linear-gradient(to right, #de6262, #ffb88c, #8E2DE2, #4A00E0);
+    }
+
+    .login-box {
+      background: #fff;
+      padding: 40px;
+      border-radius: 10px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+      width: 350px;
+      position: relative;
+    }
+
+    .login-box .icon {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .login-box .icon i {
+      font-size: 60px;
+      color: #e53935;
+    }
+
+    .form-control {
+      margin-bottom: 15px;
+      border-radius: 5px;
+    }
+
+    .btn-login {
+      background-color: #e53935;
+      border: none;
+      width: 100%;
+      padding: 10px;
+      color: white;
+      font-weight: bold;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+    }
+
+    .btn-login:hover {
+      background-color: #c62828;
+    }
+
+    .extra-options {
+      display: flex;
+      justify-content: space-between;
+      font-size: 0.9em;
+      color: #999;
+      margin-bottom: 15px;
+    }
+
+    input::placeholder {
+      font-size: 0.9em;
+    }
+
+    .register-link {
+      margin-top: 10px;
+      text-align: center;
+    }
+
+    .register-link a {
+      color: #e53935;
+      text-decoration: none;
+    }
+
+    .register-link a:hover {
+      text-decoration: underline;
+    }
